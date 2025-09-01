@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Cucumber Suite">
+<listeners>
+<listener class-name="com.makemytrip.reRun.RetryListener"></listener>
+</listeners>
+	<test name="ChromeTest">
+		<parameter name="browser" value="chrome" />
+		<classes>
+			<class name="com.makemytrip.testRunner.TestRunner" />
+		</classes>
+	</test>
+</suite>
